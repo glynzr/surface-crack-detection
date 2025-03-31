@@ -3,7 +3,7 @@ import torch
 
 
 def metrics(preds, target):
-    metr = MulticlassF1Score(num_classes=3)
+    metr = MulticlassF1Score(num_classes=2)
 
     return metr(preds, target)
 
