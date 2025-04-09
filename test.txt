@@ -1,0 +1,331 @@
+[Validation] Loss: 0.0088, F1 (macro): 0.7017, Accuracy (macro): 0.7244
+Saved model to checkpoints/resnet_sgd.pth
+Epoch 4/10: 100%|██████████| 875/875 [02:54<00:00,  5.02it/s, loss=0.000709]
+[Training] Epoch [4/10] Loss: 0.0148, F1 (macro): 0.6448, Accuracy (macro): 0.6810
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.65it/s]
+
+[Validation] Loss: 0.0038, F1 (macro): 0.6712, Accuracy (macro): 0.7006
+Saved model to checkpoints/resnet_sgd.pth
+Epoch 5/10: 100%|██████████| 875/875 [02:52<00:00,  5.06it/s, loss=0.134128]
+[Training] Epoch [5/10] Loss: 0.0131, F1 (macro): 0.6443, Accuracy (macro): 0.6806
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.78it/s]
+
+[Validation] Loss: 0.0046, F1 (macro): 0.6971, Accuracy (macro): 0.7207
+Saved model to checkpoints/resnet_sgd.pth
+Epoch 6/10: 100%|██████████| 875/875 [02:52<00:00,  5.07it/s, loss=0.038869]
+[Training] Epoch [6/10] Loss: 0.0130, F1 (macro): 0.6327, Accuracy (macro): 0.6722
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.81it/s]
+
+[Validation] Loss: 0.0044, F1 (macro): 0.6547, Accuracy (macro): 0.6883
+Saved model to checkpoints/resnet_sgd.pth
+Epoch 7/10: 100%|██████████| 875/875 [02:48<00:00,  5.21it/s, loss=0.014352]
+[Training] Epoch [7/10] Loss: 0.0102, F1 (macro): 0.6426, Accuracy (macro): 0.6793
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.78it/s]
+
+[Validation] Loss: 0.0034, F1 (macro): 0.6592, Accuracy (macro): 0.6916
+Saved model to checkpoints/resnet_sgd.pth
+Epoch 8/10: 100%|██████████| 875/875 [02:47<00:00,  5.21it/s, loss=0.022787]
+[Training] Epoch [8/10] Loss: 0.0115, F1 (macro): 0.6457, Accuracy (macro): 0.6816
+Validation:: 100%|██████████| 125/125 [00:13<00:00,  8.97it/s]
+
+[Validation] Loss: 0.0053, F1 (macro): 0.6332, Accuracy (macro): 0.6725
+Saved model to checkpoints/resnet_sgd.pth
+Epoch 9/10: 100%|██████████| 875/875 [02:47<00:00,  5.23it/s, loss=0.004441]
+[Training] Epoch [9/10] Loss: 0.0090, F1 (macro): 0.6404, Accuracy (macro): 0.6778
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.91it/s]
+
+[Validation] Loss: 0.0033, F1 (macro): 0.7049, Accuracy (macro): 0.7269
+Saved model to checkpoints/resnet_sgd.pth
+Epoch 10/10: 100%|██████████| 875/875 [02:47<00:00,  5.23it/s, loss=0.000403]
+[Training] Epoch [10/10] Loss: 0.0083, F1 (macro): 0.6543, Accuracy (macro): 0.6879
+Validation:: 100%|██████████| 125/125 [00:13<00:00,  8.98it/s]
+
+[Validation] Loss: 0.0037, F1 (macro): 0.6908, Accuracy (macro): 0.7157
+Saved model to checkpoints/resnet_sgd.pth
+
+==== Training Complete ====
+Final Training Loss: 0.0083, F1 (macro): 0.6543, Accuracy (macro): 0.6879
+Class-wise F1: [0.7621639966964722, 0.5463984608650208]
+Class-wise Accuracy: [1.0, 0.37589284777641296]
+
+Best Validation F1: 0.7049 at epoch 9
+Validation Loss: 0.0033, Accuracy: 0.7269
+Class-wise F1: [0.7854688167572021, 0.6242476105690002]
+Class-wise Accuracy: [1.0, 0.45375001430511475]
+
+
+Saved final metrics to checkpoints/resnet_sgd_metrics.txt
+
+
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Loaded model from checkpoints/resnet_sgd.pth
+Testing:: 100%|██████████| 250/250 [00:28<00:00,  8.64it/s]
+F1: 0.9984999895095825 Accuracy: 0.9984999895095825
+Confusion matrix saved at: plots/resnet_sgd_confusion_matrix.png
+
+
+-----------------------------------
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Epoch 1/10: 100%|██████████| 875/875 [02:51<00:00,  5.10it/s, loss=0.003051]
+[Training] Epoch [1/10] Loss: 0.0324, F1 (macro): 0.4410, Accuracy (macro): 0.5528
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.71it/s]
+
+[Validation] Loss: 0.0308, F1 (macro): 0.6901, Accuracy (macro): 0.7153
+Saved model to checkpoints/resnet_adam.pth
+Epoch 2/10: 100%|██████████| 875/875 [02:51<00:00,  5.10it/s, loss=0.005243]
+[Training] Epoch [2/10] Loss: 0.0180, F1 (macro): 0.5281, Accuracy (macro): 0.6026
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.64it/s]
+
+[Validation] Loss: 0.0107, F1 (macro): 0.4355, Accuracy (macro): 0.5499
+Saved model to checkpoints/resnet_adam.pth
+Epoch 3/10: 100%|██████████| 875/875 [02:51<00:00,  5.09it/s, loss=0.001787]
+[Training] Epoch [3/10] Loss: 0.0150, F1 (macro): 0.5477, Accuracy (macro): 0.6148
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.80it/s]
+
+[Validation] Loss: 0.0041, F1 (macro): 0.6495, Accuracy (macro): 0.6844
+Saved model to checkpoints/resnet_adam.pth
+Epoch 4/10: 100%|██████████| 875/875 [02:50<00:00,  5.14it/s, loss=0.000227]
+[Training] Epoch [4/10] Loss: 0.0139, F1 (macro): 0.5804, Accuracy (macro): 0.6360
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.77it/s]
+
+[Validation] Loss: 0.0049, F1 (macro): 0.6154, Accuracy (macro): 0.6599
+Saved model to checkpoints/resnet_adam.pth
+Epoch 5/10: 100%|██████████| 875/875 [02:50<00:00,  5.12it/s, loss=0.000445]
+[Training] Epoch [5/10] Loss: 0.0123, F1 (macro): 0.5876, Accuracy (macro): 0.6408
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.54it/s]
+
+[Validation] Loss: 0.0027, F1 (macro): 0.6469, Accuracy (macro): 0.6825
+Saved model to checkpoints/resnet_adam.pth
+Epoch 6/10: 100%|██████████| 875/875 [02:50<00:00,  5.12it/s, loss=0.000916]
+[Training] Epoch [6/10] Loss: 0.0111, F1 (macro): 0.5925, Accuracy (macro): 0.6441
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.67it/s]
+
+[Validation] Loss: 0.0033, F1 (macro): 0.6584, Accuracy (macro): 0.6910
+Saved model to checkpoints/resnet_adam.pth
+Epoch 7/10: 100%|██████████| 875/875 [02:51<00:00,  5.10it/s, loss=0.001069]
+[Training] Epoch [7/10] Loss: 0.0110, F1 (macro): 0.5898, Accuracy (macro): 0.6423
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.78it/s]
+
+[Validation] Loss: 0.0110, F1 (macro): 0.6567, Accuracy (macro): 0.6898
+Saved model to checkpoints/resnet_adam.pth
+Epoch 8/10: 100%|██████████| 875/875 [02:52<00:00,  5.07it/s, loss=0.015764]
+[Training] Epoch [8/10] Loss: 0.0114, F1 (macro): 0.5949, Accuracy (macro): 0.6458
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.66it/s]
+
+[Validation] Loss: 0.0046, F1 (macro): 0.6708, Accuracy (macro): 0.7004
+Saved model to checkpoints/resnet_adam.pth
+Epoch 9/10: 100%|██████████| 875/875 [02:50<00:00,  5.12it/s, loss=0.002080]
+[Training] Epoch [9/10] Loss: 0.0115, F1 (macro): 0.5714, Accuracy (macro): 0.6300
+Validation:: 100%|██████████| 125/125 [00:13<00:00,  8.96it/s]
+
+[Validation] Loss: 0.0026, F1 (macro): 0.6230, Accuracy (macro): 0.6653
+Saved model to checkpoints/resnet_adam.pth
+Epoch 10/10: 100%|██████████| 875/875 [02:51<00:00,  5.10it/s, loss=0.004896]
+[Training] Epoch [10/10] Loss: 0.0109, F1 (macro): 0.5849, Accuracy (macro): 0.6390
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.79it/s]
+
+[Validation] Loss: 0.0043, F1 (macro): 0.6774, Accuracy (macro): 0.7054
+Saved model to checkpoints/resnet_adam.pth
+
+==== Training Complete ====
+Final Training Loss: 0.0109, F1 (macro): 0.5849, Accuracy (macro): 0.6390
+Class-wise F1: [0.7347441911697388, 0.43501102924346924]
+Class-wise Accuracy: [1.0, 0.2779642939567566]
+
+Best Validation F1: 0.6901 at epoch 1
+Validation Loss: 0.0308, Accuracy: 0.7153
+Class-wise F1: [0.7783615589141846, 0.6018874645233154]
+Class-wise Accuracy: [1.0, 0.43050000071525574]
+
+
+Saved final metrics to checkpoints/resnet_adam_metrics.txt
+
+
+Loaded model from checkpoints/resnet_adam.pth
+Testing:: 100%|██████████| 250/250 [00:29<00:00,  8.61it/s]
+F1: 0.9984999895095825 Accuracy: 0.9984999895095825
+Confusion matrix saved at: plots/resnet_adam_confusion_matrix.png
+
+
+-----------------------------------
+
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+100%|██████████| 44.7M/44.7M [00:00<00:00, 52.8MB/s]
+Epoch 1/10: 100%|██████████| 875/875 [02:48<00:00,  5.21it/s, loss=0.003688]
+[Training] Epoch [1/10] Loss: 0.0398, F1 (macro): 0.3344, Accuracy (macro): 0.5005
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.75it/s]
+
+[Validation] Loss: 0.0057, F1 (macro): 0.3350, Accuracy (macro): 0.5008
+Saved model to checkpoints/resnet_sgd_pretrained.pth
+Epoch 2/10: 100%|██████████| 875/875 [02:48<00:00,  5.18it/s, loss=0.000896]
+[Training] Epoch [2/10] Loss: 0.0100, F1 (macro): 0.3473, Accuracy (macro): 0.5063
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.86it/s]
+
+[Validation] Loss: 0.0048, F1 (macro): 0.3843, Accuracy (macro): 0.5239
+Saved model to checkpoints/resnet_sgd_pretrained.pth
+Epoch 3/10: 100%|██████████| 875/875 [02:48<00:00,  5.19it/s, loss=0.004306]
+[Training] Epoch [3/10] Loss: 0.0094, F1 (macro): 0.3698, Accuracy (macro): 0.5169
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.65it/s]
+
+[Validation] Loss: 0.0045, F1 (macro): 0.3897, Accuracy (macro): 0.5265
+Saved model to checkpoints/resnet_sgd_pretrained.pth
+Epoch 4/10: 100%|██████████| 875/875 [02:48<00:00,  5.20it/s, loss=0.000112]
+[Training] Epoch [4/10] Loss: 0.0061, F1 (macro): 0.3856, Accuracy (macro): 0.5245
+Validation:: 100%|██████████| 125/125 [00:13<00:00,  8.95it/s]
+
+[Validation] Loss: 0.0037, F1 (macro): 0.4324, Accuracy (macro): 0.5483
+Saved model to checkpoints/resnet_sgd_pretrained.pth
+Epoch 5/10: 100%|██████████| 875/875 [02:47<00:00,  5.22it/s, loss=0.000580]
+[Training] Epoch [5/10] Loss: 0.0058, F1 (macro): 0.4109, Accuracy (macro): 0.5371
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.82it/s]
+
+[Validation] Loss: 0.0039, F1 (macro): 0.4887, Accuracy (macro): 0.5792
+Saved model to checkpoints/resnet_sgd_pretrained.pth
+Epoch 6/10: 100%|██████████| 875/875 [02:47<00:00,  5.23it/s, loss=0.002157]
+[Training] Epoch [6/10] Loss: 0.0056, F1 (macro): 0.4325, Accuracy (macro): 0.5483
+Validation:: 100%|██████████| 125/125 [00:13<00:00,  9.01it/s]
+
+[Validation] Loss: 0.0042, F1 (macro): 0.5145, Accuracy (macro): 0.5944
+Saved model to checkpoints/resnet_sgd_pretrained.pth
+Epoch 7/10: 100%|██████████| 875/875 [02:46<00:00,  5.24it/s, loss=0.000418]
+[Training] Epoch [7/10] Loss: 0.0056, F1 (macro): 0.4481, Accuracy (macro): 0.5566
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.78it/s]
+
+[Validation] Loss: 0.0039, F1 (macro): 0.4959, Accuracy (macro): 0.5834
+Saved model to checkpoints/resnet_sgd_pretrained.pth
+Epoch 8/10: 100%|██████████| 875/875 [02:47<00:00,  5.22it/s, loss=0.000294]
+[Training] Epoch [8/10] Loss: 0.0049, F1 (macro): 0.4653, Accuracy (macro): 0.5660
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.89it/s]
+
+[Validation] Loss: 0.0043, F1 (macro): 0.5480, Accuracy (macro): 0.6150
+Saved model to checkpoints/resnet_sgd_pretrained.pth
+Epoch 9/10: 100%|██████████| 875/875 [02:47<00:00,  5.23it/s, loss=0.001882]
+[Training] Epoch [9/10] Loss: 0.0047, F1 (macro): 0.4828, Accuracy (macro): 0.5758
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.87it/s]
+
+[Validation] Loss: 0.0034, F1 (macro): 0.5508, Accuracy (macro): 0.6168
+Saved model to checkpoints/resnet_sgd_pretrained.pth
+Epoch 10/10: 100%|██████████| 875/875 [02:47<00:00,  5.24it/s, loss=0.000199]
+[Training] Epoch [10/10] Loss: 0.0048, F1 (macro): 0.4896, Accuracy (macro): 0.5798
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.90it/s]
+
+[Validation] Loss: 0.0035, F1 (macro): 0.5275, Accuracy (macro): 0.6022
+Saved model to checkpoints/resnet_sgd_pretrained.pth
+
+==== Training Complete ====
+Final Training Loss: 0.0048, F1 (macro): 0.4896, Accuracy (macro): 0.5798
+Class-wise F1: [0.7041013836860657, 0.2751185894012451]
+Class-wise Accuracy: [1.0, 0.15950000286102295]
+
+Best Validation F1: 0.5508 at epoch 9
+Validation Loss: 0.0034, Accuracy: 0.6168
+Class-wise F1: [0.722935140132904, 0.3785974979400635]
+Class-wise Accuracy: [1.0, 0.23350000381469727]
+
+
+Saved final metrics to checkpoints/resnet_sgd_pretrained_metrics.txt
+
+
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Loaded model from checkpoints/resnet_sgd_pretrained.pth
+Testing:: 100%|██████████| 250/250 [00:28<00:00,  8.79it/s]
+F1: 0.9994999766349792 Accuracy: 0.9994999766349792
+Confusion matrix saved at: plots/resnet_sgd_pretrained_confusion_matrix.png
+
+-----------------------------------
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Epoch 1/10: 100%|██████████| 875/875 [02:49<00:00,  5.16it/s, loss=0.162068]
+[Training] Epoch [1/10] Loss: 0.0160, F1 (macro): 0.3550, Accuracy (macro): 0.5099
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.68it/s]
+
+[Validation] Loss: 0.0072, F1 (macro): 0.4248, Accuracy (macro): 0.5443
+Saved model to checkpoints/resnet_adam_pretrained.pth
+Epoch 2/10: 100%|██████████| 875/875 [02:50<00:00,  5.15it/s, loss=0.000664]
+[Training] Epoch [2/10] Loss: 0.0073, F1 (macro): 0.4189, Accuracy (macro): 0.5412
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.92it/s]
+
+[Validation] Loss: 0.0032, F1 (macro): 0.5525, Accuracy (macro): 0.6179
+Saved model to checkpoints/resnet_adam_pretrained.pth
+Epoch 3/10: 100%|██████████| 875/875 [02:50<00:00,  5.14it/s, loss=0.000562]
+[Training] Epoch [3/10] Loss: 0.0058, F1 (macro): 0.4677, Accuracy (macro): 0.5674
+Validation:: 100%|██████████| 125/125 [00:13<00:00,  8.95it/s]
+
+[Validation] Loss: 0.0040, F1 (macro): 0.5518, Accuracy (macro): 0.6174
+Saved model to checkpoints/resnet_adam_pretrained.pth
+Epoch 4/10: 100%|██████████| 875/875 [02:49<00:00,  5.16it/s, loss=0.000030]
+[Training] Epoch [4/10] Loss: 0.0051, F1 (macro): 0.4907, Accuracy (macro): 0.5804
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.87it/s]
+
+[Validation] Loss: 0.0094, F1 (macro): 0.5734, Accuracy (macro): 0.6314
+Saved model to checkpoints/resnet_adam_pretrained.pth
+Epoch 5/10: 100%|██████████| 875/875 [02:52<00:00,  5.07it/s, loss=0.000054]
+[Training] Epoch [5/10] Loss: 0.0056, F1 (macro): 0.5061, Accuracy (macro): 0.5894
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.71it/s]
+
+[Validation] Loss: 0.0067, F1 (macro): 0.4920, Accuracy (macro): 0.5811
+Saved model to checkpoints/resnet_adam_pretrained.pth
+Epoch 6/10: 100%|██████████| 875/875 [02:53<00:00,  5.05it/s, loss=0.000306]
+[Training] Epoch [6/10] Loss: 0.0048, F1 (macro): 0.5342, Accuracy (macro): 0.6064
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.85it/s]
+
+[Validation] Loss: 0.0050, F1 (macro): 0.4576, Accuracy (macro): 0.5617
+Saved model to checkpoints/resnet_adam_pretrained.pth
+Epoch 7/10: 100%|██████████| 875/875 [02:49<00:00,  5.15it/s, loss=0.000766]
+[Training] Epoch [7/10] Loss: 0.0043, F1 (macro): 0.5393, Accuracy (macro): 0.6095
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.81it/s]
+
+[Validation] Loss: 0.0095, F1 (macro): 0.5786, Accuracy (macro): 0.6348
+Saved model to checkpoints/resnet_adam_pretrained.pth
+Epoch 8/10: 100%|██████████| 875/875 [02:51<00:00,  5.11it/s, loss=0.000156]
+[Training] Epoch [8/10] Loss: 0.0053, F1 (macro): 0.5529, Accuracy (macro): 0.6181
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.86it/s]
+
+[Validation] Loss: 0.0035, F1 (macro): 0.5700, Accuracy (macro): 0.6291
+Saved model to checkpoints/resnet_adam_pretrained.pth
+Epoch 9/10: 100%|██████████| 875/875 [02:50<00:00,  5.13it/s, loss=0.012635]
+[Training] Epoch [9/10] Loss: 0.0034, F1 (macro): 0.5751, Accuracy (macro): 0.6325
+Validation:: 100%|██████████| 125/125 [00:14<00:00,  8.75it/s]
+
+[Validation] Loss: 0.0063, F1 (macro): 0.6433, Accuracy (macro): 0.6799
+Saved model to checkpoints/resnet_adam_pretrained.pth
+Epoch 10/10: 100%|██████████| 875/875 [02:49<00:00,  5.17it/s, loss=0.005926]
+[Training] Epoch [10/10] Loss: 0.0055, F1 (macro): 0.5802, Accuracy (macro): 0.6359
+Validation:: 100%|██████████| 125/125 [00:13<00:00,  8.97it/s]
+
+[Validation] Loss: 0.0044, F1 (macro): 0.6267, Accuracy (macro): 0.6679
+Saved model to checkpoints/resnet_adam_pretrained.pth
+
+==== Training Complete ====
+Final Training Loss: 0.0055, F1 (macro): 0.5802, Accuracy (macro): 0.6359
+Class-wise F1: [0.7330610752105713, 0.4273197054862976]
+Class-wise Accuracy: [1.0, 0.27171429991722107]
+
+Best Validation F1: 0.6433 at epoch 9
+Validation Loss: 0.0063, Accuracy: 0.6799
+Class-wise F1: [0.7575040459632874, 0.529141366481781]
+Class-wise Accuracy: [1.0, 0.35975000262260437]
+
+
+Saved final metrics to checkpoints/resnet_adam_pretrained_metrics.txt
+
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Loaded model from checkpoints/resnet_adam_pretrained.pth
+Testing:: 100%|██████████| 250/250 [00:28<00:00,  8.76it/s]
+F1: 0.9990000128746033 Accuracy: 0.9990000128746033
+Confusion matrix saved at: plots/resnet_adam_pretrained_confusion_matrix.png
+
