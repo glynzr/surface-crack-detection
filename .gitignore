@@ -6,3 +6,5 @@ runs
 env
 archieve
 checkpoints/
+venv
+.DS_STORE
