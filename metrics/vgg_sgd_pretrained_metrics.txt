@@ -1,0 +1,11 @@
+
+==== Training Complete ====
+Final Training Loss: 0.0037, F1 (macro): 0.5066, Accuracy (macro): 0.5897
+Class-wise F1: [0.7090524435043335, 0.30412793159484863]
+Class-wise Accuracy: [1.0, 0.17933423817157745]
+
+Best Validation F1: 0.5007 at epoch 10
+Validation Loss: 0.0026, Accuracy: 0.5862
+Class-wise F1: [0.7073073983192444, 0.29406121373176575]
+Class-wise Accuracy: [1.0, 0.17237499356269836]
+

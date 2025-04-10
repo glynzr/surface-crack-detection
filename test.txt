@@ -581,4 +581,140 @@ Confusion matrix saved at: plots/vgg_adam_confusion_matrix.png
 
 
 
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/vgg16-397923af.pth" to /root/.cache/torch/hub/checkpoints/vgg16-397923af.pth
+100%|██████████| 528M/528M [00:03<00:00, 166MB/s]
+Epoch 1/10: 100%|██████████| 875/875 [08:11<00:00,  1.78it/s, loss=0.003337]
+
+[Training] Epoch [1/10] Loss: 0.0245, F1 (macro): 0.3414, Accuracy (macro): 0.5037
+
+Validation:: 100%|██████████| 250/250 [01:00<00:00,  4.12it/s]
+
+
+[Validation] Loss: 0.0046, F1 (macro): 0.3336, Accuracy (macro): 0.5001
+Saved model to checkpoints/vgg_sgd_pretrained.pth
+
+Epoch 2/10: 100%|██████████| 875/875 [08:18<00:00,  1.76it/s, loss=0.000224]
+
+[Training] Epoch [2/10] Loss: 0.0063, F1 (macro): 0.3564, Accuracy (macro): 0.5106
+
+Validation:: 100%|██████████| 250/250 [00:59<00:00,  4.21it/s]
+
+
+[Validation] Loss: 0.0030, F1 (macro): 0.3351, Accuracy (macro): 0.5008
+Saved model to checkpoints/vgg_sgd_pretrained.pth
+
+Epoch 3/10: 100%|██████████| 875/875 [08:15<00:00,  1.76it/s, loss=0.000251]
+
+[Training] Epoch [3/10] Loss: 0.0054, F1 (macro): 0.3618, Accuracy (macro): 0.5131
+
+Validation:: 100%|██████████| 250/250 [00:59<00:00,  4.22it/s]
+
+
+[Validation] Loss: 0.0022, F1 (macro): 0.3371, Accuracy (macro): 0.5017
+Saved model to checkpoints/vgg_sgd_pretrained.pth
+
+Epoch 4/10: 100%|██████████| 875/875 [08:14<00:00,  1.77it/s, loss=0.000409]
+
+[Training] Epoch [4/10] Loss: 0.0047, F1 (macro): 0.3920, Accuracy (macro): 0.5276
+
+Validation:: 100%|██████████| 250/250 [00:58<00:00,  4.26it/s]
+
+
+[Validation] Loss: 0.0024, F1 (macro): 0.3524, Accuracy (macro): 0.5087
+Saved model to checkpoints/vgg_sgd_pretrained.pth
+
+Epoch 5/10: 100%|██████████| 875/875 [08:11<00:00,  1.78it/s, loss=0.000051]
+
+[Training] Epoch [5/10] Loss: 0.0039, F1 (macro): 0.4306, Accuracy (macro): 0.5473
+
+Validation:: 100%|██████████| 250/250 [01:00<00:00,  4.13it/s]
+
+
+[Validation] Loss: 0.0017, F1 (macro): 0.3568, Accuracy (macro): 0.5107
+Saved model to checkpoints/vgg_sgd_pretrained.pth
+
+Epoch 6/10: 100%|██████████| 875/875 [08:15<00:00,  1.77it/s, loss=0.000709]
+
+[Training] Epoch [6/10] Loss: 0.0043, F1 (macro): 0.4115, Accuracy (macro): 0.5374
+
+Validation:: 100%|██████████| 250/250 [00:59<00:00,  4.22it/s]
+
+
+[Validation] Loss: 0.0015, F1 (macro): 0.3548, Accuracy (macro): 0.5098
+Saved model to checkpoints/vgg_sgd_pretrained.pth
+
+Epoch 7/10: 100%|██████████| 875/875 [08:19<00:00,  1.75it/s, loss=0.000373]
+
+[Training] Epoch [7/10] Loss: 0.0033, F1 (macro): 0.4490, Accuracy (macro): 0.5571
+
+Validation:: 100%|██████████| 250/250 [01:00<00:00,  4.15it/s]
+
+
+[Validation] Loss: 0.0026, F1 (macro): 0.3764, Accuracy (macro): 0.5201
+Saved model to checkpoints/vgg_sgd_pretrained.pth
+
+Epoch 8/10: 100%|██████████| 875/875 [08:12<00:00,  1.78it/s, loss=0.000108]
+
+[Training] Epoch [8/10] Loss: 0.0035, F1 (macro): 0.4462, Accuracy (macro): 0.5556
+
+Validation:: 100%|██████████| 250/250 [01:00<00:00,  4.15it/s]
+
+
+[Validation] Loss: 0.0014, F1 (macro): 0.4105, Accuracy (macro): 0.5369
+Saved model to checkpoints/vgg_sgd_pretrained.pth
+
+Epoch 9/10: 100%|██████████| 875/875 [08:13<00:00,  1.77it/s, loss=0.000096]
+
+[Training] Epoch [9/10] Loss: 0.0034, F1 (macro): 0.4597, Accuracy (macro): 0.5629
+
+Validation:: 100%|██████████| 250/250 [00:59<00:00,  4.23it/s]
+
+
+[Validation] Loss: 0.0020, F1 (macro): 0.4618, Accuracy (macro): 0.5641
+Saved model to checkpoints/vgg_sgd_pretrained.pth
+
+Epoch 10/10: 100%|██████████| 875/875 [08:11<00:00,  1.78it/s, loss=0.000180]
+
+[Training] Epoch [10/10] Loss: 0.0037, F1 (macro): 0.5066, Accuracy (macro): 0.5897
+
+Validation:: 100%|██████████| 250/250 [00:58<00:00,  4.27it/s]
+
+
+[Validation] Loss: 0.0026, F1 (macro): 0.5007, Accuracy (macro): 0.5862
+Saved model to checkpoints/vgg_sgd_pretrained.pth
+
+==== Training Complete ====
+Final Training Loss: 0.0037, F1 (macro): 0.5066, Accuracy (macro): 0.5897
+Class-wise F1: [0.7090524435043335, 0.30412793159484863]
+Class-wise Accuracy: [1.0, 0.17933423817157745]
+
+Best Validation F1: 0.5007 at epoch 10
+Validation Loss: 0.0026, Accuracy: 0.5862
+Class-wise F1: [0.7073073983192444, 0.29406121373176575]
+Class-wise Accuracy: [1.0, 0.17237499356269836]
+
+
+Saved final metrics to checkpoints/vgg_sgd_pretrained_metrics.txt
+
+
+
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+
+Loaded model from checkpoints/vgg_sgd_pretrained.pth
+
+Testing:: 100%|██████████| 125/125 [00:30<00:00,  4.14it/s]
+
+F1: 0.9982500076293945 Accuracy: 0.9982500076293945
+Confusion matrix saved at: plots/vgg_sgd_pretrained_confusion_matrix.png
+
+
+
+------------------------------------------
 
